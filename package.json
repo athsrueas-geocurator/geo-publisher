@@ -1,0 +1,21 @@
+{
+  "name": "geo-sdk-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "publish-demo": "bun run 02_publish_demo.ts",
+    "api-demo": "bun run 01_api_demo.ts",
+    "delete-demo": "bun run 03_delete_demo.ts",
+    "seed-ontology": "bun run seed_ontology.ts",
+    "import-csv": "bun run import_csv.ts"
+  },
+  "dependencies": {
+    "@geoprotocol/geo-sdk": "^0.9.0",
+    "dotenv": "^17.2.4",
+    "viem": "^2.45.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3"
+  }
+}
